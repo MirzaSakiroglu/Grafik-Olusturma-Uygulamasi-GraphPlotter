@@ -32,7 +32,7 @@ Follow the steps below to run the project on your local machine:
    
 ```
 git clone [https://github.com/MirzaSakiroglu/Grafik-Olusturma-Uygulamasi-GraphPlotter.git](https://github.com/MirzaSakiroglu/Grafik-Olusturma-Uygulamasi-GraphPlotter.git)
-    cd Grafik-Olusturma-Uygulamasi-GraphPlotter
+cd Grafik-Olusturma-Uygulamasi-GraphPlotter
 ```
 
 3.  **Install Required Libraries**
