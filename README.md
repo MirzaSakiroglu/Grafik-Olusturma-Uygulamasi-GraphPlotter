@@ -58,7 +58,7 @@ Projeye katkıda bulunmak isterseniz, lütfen şu adımları takip edin:
 2.  Yeni bir Branch oluşturun (`git checkout -b feature/YeniOzellik`).
 3.  Değişikliklerinizi Commit'leyin (`git commit -m 'Yeni özellik eklendi'`).
 4.  Branch'inizi Push'layın (`git push origin feature/YeniOzellik`).
-5.  Bir Pull Request (Çekme İsteği) oluşturun.
+5.  Bir Pull Request oluşturun.
 
 ---
 
