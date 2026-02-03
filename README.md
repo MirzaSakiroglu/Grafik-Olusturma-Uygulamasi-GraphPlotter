@@ -30,22 +30,22 @@ Follow the steps below to run the project on your local machine:
 
 1.  **Clone the Repository**
    
-    ```
-    git clone [https://github.com/MirzaSakiroglu/Grafik-Olusturma-Uygulamasi-GraphPlotter.git](https://github.com/MirzaSakiroglu/Grafik-Olusturma-Uygulamasi-GraphPlotter.git)
+```
+git clone [https://github.com/MirzaSakiroglu/Grafik-Olusturma-Uygulamasi-GraphPlotter.git](https://github.com/MirzaSakiroglu/Grafik-Olusturma-Uygulamasi-GraphPlotter.git)
     cd Grafik-Olusturma-Uygulamasi-GraphPlotter
-    ```
+```
 
 3.  **Install Required Libraries**
    
-    ```
-    pip install matplotlib numpy
-    ```
+```
+pip install matplotlib numpy
+```
 
 5.  **Start the Application**
    
-    ```
-    python main.py
-    ```
+```
+python main.py
+```
 
 ## 📖 Usage Guide
 
