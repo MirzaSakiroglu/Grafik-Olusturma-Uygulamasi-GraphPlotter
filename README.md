@@ -34,12 +34,12 @@ Follow the steps below to run the project on your local machine:
     cd Grafik-Olusturma-Uygulamasi-GraphPlotter
     ```
 
-2.  **Install Required Libraries**
+3.  **Install Required Libraries**
     ```bash
     pip install matplotlib numpy
     ```
 
-3.  **Start the Application**
+4.  **Start the Application**
     ```bash
     python main.py
     ```
