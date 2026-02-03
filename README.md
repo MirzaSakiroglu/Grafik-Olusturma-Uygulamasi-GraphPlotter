@@ -1,65 +1,65 @@
-# GraphPlotter - Grafik Oluşturma Uygulaması
+# GraphPlotter - Graph Plotting Application
 
-**GraphPlotter**, matematiksel fonksiyonları görselleştirmek ve analiz etmek için geliştirilmiş, Python tabanlı bir masaüstü uygulamasıdır. Kullanıcı dostu arayüzü sayesinde karmaşık verileri saniyeler içinde 2D grafiklere dönüştürür.
-
----
-
-##  Proje Hakkında
-Bu proje, öğrencilerin, mühendislerin ve matematik meraklılarının fonksiyonların davranışlarını görsel olarak incelemelerine olanak tanır. Python'un güçlü kütüphanelerini kullanarak hızlı, doğru ve etkileşimli grafikler sunar.
-
-##  Temel Özellikler
-
-* **Dinamik Fonksiyon Çizimi:** `x**2`, `sin(x)`, `exp(x)` gibi matematiksel ifadeleri destekler.
-* **İnteraktif Grafikler:** Grafikler üzerinde yakınlaştırma (zoom), kaydırma (pan) ve ev görünümüne dönme özellikleri.
-* **Özelleştirilebilir Aralıklar:** X ve Y eksenleri için başlangıç ve bitiş değerlerini manuel olarak belirleyebilme.
-* **Kayıt İmkanı:** Oluşturulan grafikleri PNG veya diğer formatlarda bilgisayarınıza kaydedebilme.
-* **Hata Yönetimi:** Hatalı fonksiyon girişlerinde kullanıcıyı bilgilendiren uyarı mekanizması.
-
-## 🛠️ Kullanılan Teknolojiler
-
-Bu proje aşağıdaki açık kaynaklı Python kütüphaneleri ile geliştirilmiştir:
-
-* **[Python 3.x](https://www.python.org/):** Ana programlama dili.
-* **[Tkinter](https://docs.python.org/3/library/tkinter.html):** Grafiksel kullanıcı arayüzü (GUI).
-* **[Matplotlib](https://matplotlib.org/):** Veri görselleştirme ve grafik çizim motoru.
-* **[NumPy](https://numpy.org/):** Yüksek performanslı matematiksel hesaplamalar.
-
-## ⚙️ Kurulum
-
-Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin:
-
-1.  **Depoyu Klonlayın**
-    ```bash
-    git clone [https://github.com/MirzaSakiroglu/Grafik-Olusturma-Uygulamasi-GraphPlotter.git](https://github.com/MirzaSakiroglu/Grafik-Olusturma-Uygulamasi-GraphPlotter.git)
-    cd Grafik-Olusturma-Uygulamasi-GraphPlotter
-    ```
-
-2.  **Gerekli Kütüphaneleri Yükleyin**
-    ```bash
-    pip install matplotlib numpy
-    ```
-
-3.  **Uygulamayı Başlatın**
-    ```bash
-    python main.py
-    ```
-
-## 📖 Kullanım Kılavuzu
-
-1.  Uygulamayı açın.
-2.  Verilerin import edileceği dosyayı yükleyin.
-3.  Hangi grafik tipini kullanmak istediğinizi seçin
-
-## 🤝 Katkıda Bulunma
-
-Projeye katkıda bulunmak isterseniz, lütfen şu adımları takip edin:
-
-1.  Projeyi Fork'layın.
-2.  Yeni bir Branch oluşturun (`git checkout -b feature/YeniOzellik`).
-3.  Değişikliklerinizi Commit'leyin (`git commit -m 'Yeni özellik eklendi'`).
-4.  Branch'inizi Push'layın (`git push origin feature/YeniOzellik`).
-5.  Bir Pull Request oluşturun.
+**GraphPlotter** is a Python-based desktop application developed to visualize and analyze mathematical functions. Thanks to its user-friendly interface, it converts complex data into 2D graphs in seconds.
 
 ---
 
-**Geliştiriciler:** [Mirza Şakiroğlu](https://github.com/MirzaSakiroglu) ve [İsa Mirza Sincap](https://github.com/Sqortle)
+##  About the Project
+This project allows students, engineers, and mathematics enthusiasts to visually examine the behaviors of functions. Using Python's powerful libraries, it offers fast, accurate, and interactive graphs.
+
+##  Key Features
+
+* **Dynamic Function Plotting:** Supports mathematical expressions like `x**2`, `sin(x)`, `exp(x)`.
+* **Interactive Graphs:** Features zooming, panning, and returning to the home view on graphs.
+* **Customizable Ranges:** Ability to manually set start and end values for X and Y axes.
+* **Saving Capability:** Ability to save generated graphs to your computer in PNG or other formats.
+* **Error Management:** Warning mechanism to inform the user in case of incorrect function inputs.
+
+## 🛠️ Technologies Used
+
+This project was developed with the following open-source Python libraries:
+
+* **[Python 3.x](https://www.python.org/):** Main programming language.
+* **[Tkinter](https://docs.python.org/3/library/tkinter.html):** Graphical User Interface (GUI).
+* **[Matplotlib](https://matplotlib.org/):** Data visualization and plotting engine.
+* **[NumPy](https://numpy.org/):** High-performance mathematical computations.
+
+## ⚙️ Installation
+
+Follow the steps below to run the project on your local machine:
+
+1.  **Clone the Repository**
+    ```bash
+    git clone [https://github.com/MirzaSakiroglu/Grafik-Olusturma-Uygulamasi-GraphPlotter.git](https://github.com/MirzaSakiroglu/Grafik-Olusturma-Uygulamasi-GraphPlotter.git)
+    cd Grafik-Olusturma-Uygulamasi-GraphPlotter
+    ```
+
+2.  **Install Required Libraries**
+    ```bash
+    pip install matplotlib numpy
+    ```
+
+3.  **Start the Application**
+    ```bash
+    python main.py
+    ```
+
+## 📖 Usage Guide
+
+1.  Open the application.
+2.  Load the file from which data will be imported.
+3.  Select the graph type you wish to use.
+
+## 🤝 Contributing
+
+If you would like to contribute to the project, please follow these steps:
+
+1.  Fork the Project.
+2.  Create a new Branch (`git checkout -b feature/NewFeature`).
+3.  Commit your changes (`git commit -m 'Added new feature'`).
+4.  Push your Branch (`git push origin feature/NewFeature`).
+5.  Create a Pull Request.
+
+---
+
+**Developers:** [Mirza Şakiroğlu](https://github.com/MirzaSakiroglu) and [İsa Mirza Sincap](https://github.com/Sqortle)
